@@ -1,0 +1,16 @@
+.app-setLocation {
+    display: flow;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.app-calendar {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+}
