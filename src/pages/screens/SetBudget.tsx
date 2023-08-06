@@ -18,7 +18,11 @@ export const SetBudget = () => {
         How much are you looking to spend on your wedding?
       </Title>
 
-      <Input placeholder="Estimate budget PHP" style={{ width: "50%" }} />
+      <Input
+        type="number"
+        placeholder="Estimate budget PHP"
+        style={{ width: "50%" }}
+      />
 
       <Row>
         <button
@@ -26,7 +30,7 @@ export const SetBudget = () => {
             navigate("/app/results")
           }}
         >
-          Next
+          Proceed
         </button>
       </Row>
     </Container>
